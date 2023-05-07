@@ -53,6 +53,7 @@ public class MainViewController implements Initializable {
 		
 	}
 	
+	// this function has two arguments, the path of the fxml and the lambda expression
 	private synchronized <T> void loadView(String absoluteName, Consumer<T> initializingAction) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
