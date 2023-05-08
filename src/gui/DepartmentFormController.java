@@ -18,7 +18,7 @@ import model.entities.Department;
 import model.services.DepartmentService;
 
 public class DepartmentFormController implements Initializable {
-	
+	// 
 	private Department entity;
 
 	private DepartmentService service;
